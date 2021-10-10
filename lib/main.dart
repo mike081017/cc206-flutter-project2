@@ -64,6 +64,9 @@ class _State extends State<MyApp> {
                     ),
                   ),
                 ),
+                SizedBox(
+                  height: 30,
+                ),
                 Container(
                     height: 50,
                     padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
