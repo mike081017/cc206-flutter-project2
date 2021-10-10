@@ -21,8 +21,8 @@ class _State extends State<MyApp> {
         appBar: AppBar(
           title: Image.network(
             "https://www.pngkit.com/png/full/0-4506_facebook-logo-png-transparent-facebook-icon-small-png.png",
-            height: 60,
-            width: 60,
+            height: 50,
+            width: 50,
           ),
         ),
         body: Padding(
@@ -33,14 +33,14 @@ class _State extends State<MyApp> {
                     alignment: Alignment.center,
                     padding: EdgeInsets.all(10),
                     child: Text(
-                      'TutorialKart',
-                      style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w500, fontSize: 30),
+                      'Facebook',
+                      style: TextStyle(color: Colors.blue, fontWeight: FontWeight.w800, fontSize: 30),
                     )),
                 Container(
                     alignment: Alignment.center,
                     padding: EdgeInsets.all(10),
                     child: Text(
-                      'Sign in',
+                      'Log in',
                       style: TextStyle(fontSize: 20),
                     )),
                 Container(
@@ -64,13 +64,6 @@ class _State extends State<MyApp> {
                     ),
                   ),
                 ),
-                FlatButton(
-                  onPressed: () {
-                    //forgot password screen
-                  },
-                  textColor: Colors.blue,
-                  child: Text('Forgot Password'),
-                ),
                 Container(
                     height: 50,
                     padding: EdgeInsets.fromLTRB(10, 0, 10, 0),
@@ -83,23 +76,6 @@ class _State extends State<MyApp> {
                         print(passwordController.text);
                       },
                     )),
-                Container(
-                    child: Row(
-                  children: <Widget>[
-                    Text('Does not have account?'),
-                    FlatButton(
-                      textColor: Colors.blue,
-                      child: Text(
-                        'Sign in',
-                        style: TextStyle(fontSize: 20),
-                      ),
-                      onPressed: () {
-                        //signup screen
-                      },
-                    )
-                  ],
-                  mainAxisAlignment: MainAxisAlignment.center,
-                ))
               ],
             )));
   }
