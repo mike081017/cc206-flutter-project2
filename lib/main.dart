@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Image.network(
-              "https://letket.com/wp-content/uploads/2020/12/app-development-banner_33099-1720.jpg",
+              "https://www.acinfosoft.com/wp-content/uploads/2020/02/app-development-trends.png",
               height: 180,
               width: 180,
             ),
